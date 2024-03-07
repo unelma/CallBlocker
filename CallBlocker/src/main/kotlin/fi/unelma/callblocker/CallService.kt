@@ -1,4 +1,4 @@
-package ilchev.stefan.callblocker
+package fi.unelma.callblocker
 
 import android.os.Build
 import android.telecom.Call

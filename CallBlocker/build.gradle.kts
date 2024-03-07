@@ -17,7 +17,7 @@ kotlin {
 android {
 	buildToolsVersion = libs.versions.buildToolsVersion.get()
 	compileSdk = libs.versions.compileSdk.get().toInt()
-	namespace = "ilchev.stefan.callblocker"
+	namespace = "fi.unelma.callblocker"
 
 	buildFeatures {
 		buildConfig = true

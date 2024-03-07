@@ -1,4 +1,4 @@
-package ilchev.stefan.callblocker
+package fi.unelma.callblocker
 
 import android.content.BroadcastReceiver
 import android.content.Context
