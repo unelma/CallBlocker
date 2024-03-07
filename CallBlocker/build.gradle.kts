@@ -37,6 +37,7 @@ android {
 		}
 	}
 
+	/*
 	signingConfigs {
 
 		named("debug") {
@@ -46,6 +47,7 @@ android {
 			keyPassword = localProperties.getProperty("key.password") ?: "android"
 		}
 	}
+	 */
 
 	buildTypes {
 
@@ -53,7 +55,7 @@ android {
 			isMinifyEnabled = true
 			isShrinkResources = true
 			proguardFiles += getDefaultProguardFile("proguard-android-optimize.txt")
-			signingConfig = signingConfigs["debug"]
+			//signingConfig = signingConfigs["debug"]
 		}
 	}
 }
